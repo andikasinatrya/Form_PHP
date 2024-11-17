@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(gunung3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 500px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  background: transparent;
+  color: #fff;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background: #fff;
+  color: #333;
+}
+
+input[type="submit"]:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+input[type="reset"] {
+  background: #fff;
+  color: #333;
+}
+
+input[type="reset"]:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.wrapper {
+  margin-left: -5px;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.wrapper .remember-forgot {
+  line-height: 3;
+  display: flex;
+  font-size: 14.5px;
+  margin: -35px 0 15px;
+  margin-left: 10px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot label {
+  color: #fff;
+  cursor: pointer;
+}
